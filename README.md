@@ -29,7 +29,8 @@ http://www.yiiframework.com/doc-2.0/guide-output-sorting.html
 
 * There are two Json files in the root folder of the project ( users.json and loans.json ) with predefined loans and users. You must import that data into the database programmatically. For example create a script that imports the file or use a migration
 
-*Once the assignment is done upload to a public git repository (github, bitbucket)
+* Write a method to get user age from user personal code. All supplied personal codes are in Estonian personal code format: https://en.wikipedia.org/wiki/National_identification_number#Estonia
+Display user age in user view.
 
 http://www.yiiframework.com/doc-2.0/guide-db-migrations.html
 
@@ -38,6 +39,10 @@ http://www.yiiframework.com/doc-2.0/guide-db-migrations.html
 Use skeleton as much as you can. Bonus for responsiveness ( rather mandatory ) and SCSS usage.
 
 Font used -> http://font.ubuntu.com/
+
+* Write a test case to test if your user age calculation method returns correct age and test if user is allowed to apply for a loan (user is not underage).
+
+* Once the assignment is done upload to a public git repository (github, bitbucket)
 
 # Evaluation Criteria
 
