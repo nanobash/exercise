@@ -6,4 +6,6 @@
     </ul>
 </div>
 
-{% include('grid.twig') %}
+{% if twigFile is not empty %}
+    {{ include(twigFile) }}
+{% endif %}

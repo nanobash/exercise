@@ -93,4 +93,25 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionContent()
+    {
+        return $this->render('content.twig', ['baseUrl' => Yii::$app->homeUrl]);
+    }
+
+    public function actionLoans()
+    {
+        return $this->render('content.twig', [
+            'baseUrl' => Yii::$app->homeUrl,
+            'twigFile' => 'loansGrid.twig',
+        ]);
+    }
+
+    public function actionUsers()
+    {
+        return $this->render('content.twig', [
+            'baseUrl' => Yii::$app->homeUrl,
+            'twigFile' => 'usersGrid.twig',
+        ]);
+    }
 }
