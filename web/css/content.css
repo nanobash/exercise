@@ -1,0 +1,24 @@
+.content__menu {
+    position: relative;
+    top: -20px;
+    background-color: #EEEFEF;
+}
+
+.content__ul {
+    margin: 0;
+    padding: 0.5%;
+    width: 100%;
+    list-style-type: none;
+}
+
+.content__li {
+    margin: 0 0 0 5%;
+    padding: 0;
+    display: inline;
+}
+
+.content__a {
+    text-decoration: none !important;
+    font-weight: bold;
+    color: grey;
+}
