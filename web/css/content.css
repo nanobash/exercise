@@ -1,24 +1,111 @@
-.content__menu {
-    position: relative;
-    top: -20px;
-    background-color: #EEEFEF;
-}
-
-.content__ul {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
-    padding: 0.5%;
-    width: 100%;
-    list-style-type: none;
-}
-
-.content__li {
-    margin: 0 0 0 5%;
     padding: 0;
-    display: inline;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-.content__a {
-    text-decoration: none !important;
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of Css Reset */
+
+@font-face {
+    font-family: Ubuntu Arial, sans-serif;
+    src: url('/web/Ubuntu-C.ttf');
+}
+
+.baseWrap {
+    width: 100%;
+    height: 38px;
+    background-color: #010101;
+}
+
+.baseHeader {
+    margin: 0 auto;
+    width: 80%;
+    height: 38px;
+    position: relative;
+}
+
+.baseHeader__ul {
+    list-style: none;
+    position: relative;
+    top: 11px;
+}
+
+.baseHeader__ul li {
+    margin-left: 15px;
+    font-family: Ubuntu;
+    font-size: 16px;
+    display: inline;
+    color: white;
+}
+
+.baseHeader__ul__li {
     font-weight: bold;
-    color: grey;
+    font-size: 15px;
+}
+
+.baseHeader__note {
+    float: right;
+    position: relative;
+    top: 11px;
+    right: 80px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.baseHeader__menu__btn {
+    float: right;
+    position: relative;
+    top: 9px;
+    left: 148px;
+    border: 2px solid white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: orange;
 }
