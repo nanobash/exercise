@@ -8,6 +8,13 @@ class BaseController extends Controller
 {
     public $layout = 'base';
 
+    public function init()
+    {
+        if (\Yii::$app->user->isGuest) {
+            return $this->goHome();
+        }
+    }
+
     public function actionContent()
     {
         return $this->render('content.twig', []);
