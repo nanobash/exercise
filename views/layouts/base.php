@@ -41,6 +41,27 @@ use yii\helpers\Html;
         </div>
     </div>
 
+    <div class="row logoHeader">
+        <div class="col-md-3">
+            <div class="baseHeader__logo">
+                <a href="<?= Url::current(); ?>"><img src="<?= Url::base(); ?>/pictures/header-logo.png" alt="CreditStar" style="position: relative; top: 14px; left: 15px;"></a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <ul class="logoHeader__menu">
+                <li><a href="<?= Url::current(); ?>">Add</a></li>
+                <li><a href="<?= Url::base(); ?>/index.php/site" target="_blank">Here</a></li>
+                <li><a href="http://yiiframework.com" target="_blank">Random</a></li>
+                <li><a href="https://creditstar.ee" target="_blank">CREDITSTAR</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <span class="logoHeader__lang"><a href="#">По-русски</a></span>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-md-12">
             <div class="baseContainer">
@@ -62,12 +83,3 @@ use yii\helpers\Html;
 <!--        </span>-->
 <!---->
 <!--<input type="button" class="baseHeader__menu__logout" value="Log Out">-->
-
-<!--<a href="--><?//= Url::current(); ?><!--"><img src="--><?//= Url::base(); ?><!--/pictures/header-logo.png" alt="Creditstar" style="position: relative; top: 14px; left: 15px;"></a>-->
-<!---->
-<!--<ul class="baseHeader__main__menu">-->
-<!--    <li><a href="--><?//= Url::current(); ?><!--">Add</a></li>-->
-<!--    <li><a href="--><?//= Url::base(); ?><!--/index.php/site">Here</a></li>-->
-<!--    <li><a href="https://google.com" target="_blank">Random</a></li>-->
-<!--    <li><a href="https://creditstar.ee" target="_blank">CREDITSTAR</a></li>-->
-<!--</ul>-->

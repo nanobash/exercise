@@ -69,6 +69,13 @@ table {
     position: relative;
 }
 
+.logoHeader {
+    margin: 0 auto;
+    width: 80%;
+    height: 61px;
+    position: relative;
+}
+
 .baseHeader__ul {
     list-style: none;
     position: relative;
@@ -108,4 +115,44 @@ table {
     -moz-border-radius: 3px;
     border-radius: 3px;
     background-color: orange;
+}
+
+.logoHeader__menu {
+    position: relative;
+    top: 22px;
+    left: 55px;
+    list-style: none;
+}
+
+.logoHeader__menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.logoHeader__menu li a {
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.logoHeader__menu li a:hover {
+    color: orange;
+}
+
+.logoHeader__lang {
+    position: relative;
+    top: 22px;
+    left: 140px;
+}
+
+.logoHeader__lang a {
+    font-family: Ubuntu;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.logoHeader__lang a:hover {
+    color: orange;
 }
