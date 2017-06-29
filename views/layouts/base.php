@@ -63,6 +63,18 @@ use yii\helpers\Html;
     </div>
 
     <div class="row">
+        <div class="col-md-12 gridHeader">
+            <div class="gridHeader__content">
+                <ul class="gridHeader__menu">
+                    <li><a href="#">My Actions</a></li>
+                    <li><a href="#">Loans</a></li>
+                    <li><a href="#">Users</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col-md-12">
             <div class="baseContainer">
                 <?= $content ?>
@@ -75,11 +87,3 @@ use yii\helpers\Html;
 </body>
 </html>
 <?php $this->endPage() ?>
-
-
-<!---->
-<!--<span class="baseHeader__menu__note">-->
-<!--            Tere, Kaupo Kasutaja-->
-<!--        </span>-->
-<!---->
-<!--<input type="button" class="baseHeader__menu__logout" value="Log Out">-->
