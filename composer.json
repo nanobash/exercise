@@ -18,7 +18,9 @@
         "yiisoft/yii2": ">=2.0.4",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "yiisoft/yii2-twig": "^2.1"
+        "yiisoft/yii2-twig": "^2.1",
+        "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-widgets": "^3.4"
     },
     "require-dev": {
         "codeception/codeception": "*",
