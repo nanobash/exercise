@@ -37,6 +37,7 @@ class Loans extends \yii\db\ActiveRecord
             [['userId', 'duration', 'campaign'], 'integer'],
             [['amount', 'interest'], 'number'],
             [['dateApplied', 'dateLoanEnds'], 'safe'],
+            [['dateApplied', 'dateLoanEnds'], 'date', 'format' => 'php:Y-m-d'],
             [['status'], 'boolean'],
         ];
     }

@@ -67,7 +67,7 @@ use yii\helpers\Html;
             <div class="gridHeader__content">
                 <ul class="gridHeader__menu">
                     <li><a href="#">My Actions</a></li>
-                    <li><a href="#">Loans</a></li>
+                    <li><a href="<?= Url::base(); ?>/index.php/base/loans">Loans</a></li>
                     <li><a href="<?= Url::base(); ?>/index.php/base/users">Users</a></li>
                 </ul>
             </div>

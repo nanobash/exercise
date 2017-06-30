@@ -201,7 +201,7 @@ table {
     height: 500px;
 }
 
-.content__user__createUpdate {
+.content__user__createUpdate, .content__loan__createUpdate {
     margin: 0 auto;
     width: 50%;
 }

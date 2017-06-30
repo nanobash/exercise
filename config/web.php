@@ -61,6 +61,8 @@ $config = [
             'rules' => [
                 'base/user-update/<userId:\d+>' => 'base/user-update',
                 'base/user-delete/<userId:\d+>' => 'base/user-delete',
+                'base/loan-update/<loanId:\d+>' => 'base/loan-update',
+                'base/loan-delete/<loanId:\d+>' => 'base/loan-delete',
             ],
         ],
         'mycomponent' => [
