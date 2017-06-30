@@ -1,3 +1,13 @@
+#Import users and loans
+
+    Simple run following commans:
+    php yii import/loans
+    php yii import/users
+
+NB. In order to go on "Recruitment Exercise" page, user should be logged in.
+    Username: admin/demo
+    Password: admin/demo
+
 #Description
 Test exercise for Creditstar Group
 
