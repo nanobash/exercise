@@ -193,3 +193,15 @@ table {
 .gridHeader__menu a:hover {
     color: orange;
 }
+
+.baseContainer {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+    height: 500px;
+}
+
+.content__user__createUpdate {
+    margin: 0 auto;
+    width: 50%;
+}

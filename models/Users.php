@@ -37,6 +37,7 @@ class Users extends \yii\db\ActiveRecord
             [['firstName', 'lastName', 'email', 'lang'], 'string'],
             [['personalCode', 'phone'], 'integer'],
             [['active', 'isDead'], 'boolean'],
+            [['email'], 'email'],
         ];
     }
 
