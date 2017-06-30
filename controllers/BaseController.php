@@ -48,6 +48,10 @@ class BaseController extends Controller
         if ($loan->load(Yii::$app->request->post()) && $loan->validate()) {
             if ($loan->save()) {
                 $saved = 1;
+
+                if ('' === $loanId) {
+                    $loan = new Loans();
+                }
             } else {
                 $saved = 2;
             }
@@ -113,6 +117,10 @@ class BaseController extends Controller
         if ($user->load(Yii::$app->request->post()) && $user->validate()) {
             if ($user->save()) {
                 $saved = 1;
+
+                if ('' === $userId) {
+                    $user = new Users();
+                }
             } else {
                 $saved = 2;
             }
