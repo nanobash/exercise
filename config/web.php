@@ -59,11 +59,16 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => true,
             'rules' => [
+                'base/user-update/<userId:\d+>' => 'base/user-update',
+                'base/user-delete/<userId:\d+>' => 'base/user-delete',
             ],
         ],
         'mycomponent' => [
             'class' => 'app\components\MyComponent',
         ]
+    ],
+    'modules' => [
+        'gridview' => ['class' => 'kartik\grid\Module']
     ],
     'params' => $params,
 ];
